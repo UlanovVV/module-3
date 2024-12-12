@@ -14,13 +14,3 @@ result1 = single_root_words('rich', 'richiest', 'orichalcum', 'cheers', 'richies
 result2 = single_root_words('Disablement', 'Able', 'Mable', 'Disable', 'Bagel')
 print(result1)
 print(result2)
-# #
-# root_world = 'Able'
-# other_words = 'Disablement', 'Able', 'Mable', 'Disable', 'Bagel'
-# same_words = single_root_words(root_world, *other_words)
-# print(f"Слова, содержащие '{root_world}' : {same_words}")
-#
-# root_world = 'rich'
-# other_words = 'rich', 'richiest', 'orichalcum', 'cheers', 'richies'
-# same_words = single_root_words(root_world, *other_words)
-# print(f"Слова, содержащие '{root_world}' : {same_words}")
